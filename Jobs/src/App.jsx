@@ -14,8 +14,7 @@ const Jobs = () => {
 
       if (response.ok) {
         const data = await response.json().then((data) => setJobs(data))
-      
-      console.log(data);
+        
       } else {
         console.log("HTTP-Error: " + response.status);
       }
