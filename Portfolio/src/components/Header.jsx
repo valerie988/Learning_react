@@ -1,14 +1,14 @@
 import React from "react";
-
+import "../App.css";
 const Header = () => {
     return (
         <nav className="navbar">
-            <div className="logo">My Portfolio</div>
+            <p>N...V</p>
             <ul>
-                <li><NavLink exact to="/">Home</NavLink></li>
-                <li><NavLink to="/">About</NavLink></li>
-                <li><NavLink to="/">Projects</NavLink></li>
-                <li><NavLink to="/">Contact</NavLink></li>
+                <li><a href="./Home">Home</a></li>
+                <li><a href="./Pages/About">About</a></li>
+                <li><a href="./Pages/Skills">Skills</a></li>
+                <li><a href="./Pages/contact">Contact</a></li>
             </ul>
         </nav>
     )
