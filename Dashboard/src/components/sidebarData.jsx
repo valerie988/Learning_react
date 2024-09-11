@@ -12,15 +12,16 @@ import WidgetsIcon from '@mui/icons-material/Widgets';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import ExtensionIcon from '@mui/icons-material/Extension';
 import SendIcon from '@mui/icons-material/Send';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import "../App.css"
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import { TabScrollButton } from "@mui/material";
 
 export const sidebarData = [
     {
-        title: "Dashbpoard",
+        title: "Dashboard",
         icon: < SpeedIcon />,
-        link: "/Dashbpoard"
+        link: "/Dashboard",
+        button: "NEW"
     },
     {
         title: "color",
@@ -35,22 +36,26 @@ export const sidebarData = [
     {
         title: "Base",
         icon: < ExtensionIcon />,
-        link: "/Base"
+        link: "/Base",
+        arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Buttons",
         icon: < SendIcon />,
-        link: "/Buttons"
+        link: "/Buttons",
+        arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Forms",
         icon: <  ListAltIcon/>,
-        link: "/Forms"
+        link: "/Forms",
+        arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Icons",
         icon: < StarBorderIcon />,
-        link: "/Icons"
+        link: "/Icons",
+        arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Notifications",
@@ -60,17 +65,20 @@ export const sidebarData = [
     {
         title: "widgets",
         icon: < WidgetsIcon />,
-        link: "/widgets"
+        link: "/widgets",
+        button: "NEW"
     },
     {
         title: "Smart Table",
         icon: < CalendarViewMonthIcon />,
-        link: "/Smart Table"
+        link: "/Smart Table",
+        button: "PRO"
     },
     {
         title: "Calendar",
         icon: < CalendarMonthIcon />,
-        link: "/Calendar"
+        link: "/Calendar",
+        button: "PRO"
     },
     {
         title: "Charts",
@@ -80,16 +88,19 @@ export const sidebarData = [
     {
         title: "Google Maps",
         icon: < MapIcon />,
-        link: "/Google Maps"
+        link: "/Google Maps",
+        button: "PRO"
     },
     {
         title: "Pages",
         icon: < StarBorderIcon />,
-        link: "/Pages"
+        link: "/Pages",
+        arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Apps",
         icon: < FormatListBulletedIcon />,
-        link: "/Apps"
+        link: "/Apps",
+        arrow: <KeyboardArrowDownIcon />
     }
 ]

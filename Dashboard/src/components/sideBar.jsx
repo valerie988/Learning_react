@@ -9,12 +9,14 @@ const Sidebar = () => {
             <ul>
             {sidebarData.map((value, key) => {
                 return (
-                    <li key={key} onClick={() => {window.location.pathname = value.link}}>
+                    <li key={key} id={window.location.pathname == value.link ? active : ""} onClick={() => {window.location.pathname = value.link}}>
                         {" "}
-                        <div>{value.icon}</div> 
-                        <div>
+                        <div id="icon">{value.icon}</div> 
+                        <div id="title">
                             {value.title}
                         </div>
+                        <div id="button">{value.button}</div>
+                        <div id="Arrow">{value.arrow}</div>
                     </li>
                 )
             })}
