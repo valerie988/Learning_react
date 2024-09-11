@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border-radius: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .App{
   height: 100vh;
@@ -11,7 +12,6 @@
   display: flex;
   align-items: center;
   padding: 10px;
-
   border-bottom: 1px solid rgb(202, 198, 198);
   input{
     background-color: rgb(240, 240, 240);
@@ -20,13 +20,18 @@
     border-radius: 5px;
   }
 }
-
 .sidebar{
-  height: 100vh;
-  width: 15%;
-  background-color: rgb(3, 3, 39);
-}
+  background-color: rgb(5, 1, 30);
+  
+    height: 100vh;
+    width: 15%;
+    
+    color: rgba(232, 232, 232, 0.842);
 
+  li{
+    display: flex;
+  }
+}
 .footer{
   display: flex;
   align-items: center;

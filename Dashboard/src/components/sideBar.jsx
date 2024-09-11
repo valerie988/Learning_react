@@ -5,6 +5,7 @@ import "../App.css"
 const Sidebar = () => {
     return(
         <div className="sidebar">
+            <h3>COREUI NEXT.JS</h3>
             <ul>
             {sidebarData.map((value, key) => {
                 return (

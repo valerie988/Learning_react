@@ -12,10 +12,7 @@ import ExtensionIcon from '@mui/icons-material/Extension';
 import SendIcon from '@mui/icons-material/Send';
 import "../App.css"
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import DraftsIcon from '@mui/icons-material/Drafts';
-import NightlightRoundIcon from '@mui/icons-material/NightlightRound';
-import SearchIcon from '@mui/icons-material/Search';
-import DialpadIcon from '@mui/icons-material/Dialpad';
+import { TabScrollButton } from "@mui/material";
 
 export const sidebarData = [
     {
@@ -25,62 +22,62 @@ export const sidebarData = [
     },
     {
         title: "Base",
-        icon: < Icon />,
+        icon: < ExtensionIcon />,
         link: "/Base"
     },
     {
         title: "Buttons",
-        icon: < Icon />,
+        icon: < SendIcon />,
         link: "/Buttons"
     },
     {
         title: "Forms",
-        icon: < Icon />,
+        icon: <  ListAltIcon/>,
         link: "/Forms"
     },
     {
         title: "Icons",
-        icon: < Icon />,
+        icon: < StarBorderIcon />,
         link: "/Icons"
     },
     {
         title: "Notifications",
-        icon: < Icon />,
+        icon: < NotificationsIcon />,
         link: "/Notifications"
     },
     {
         title: "widgets",
-        icon: < Icon />,
+        icon: < WidgetsIcon />,
         link: "/widgets"
     },
     {
         title: "Smart Table",
-        icon: < Icon />,
+        icon: < CalendarViewMonthIcon />,
         link: "/Smart Table"
     },
     {
         title: "Calendar",
-        icon: < Icon />,
+        icon: < CalendarMonthIcon />,
         link: "/Calendar"
     },
     {
         title: "Charts",
-        icon: < Icon />,
+        icon: < PieChartIcon />,
         link: "/Charts"
     },
     {
         title: "Google Maps",
-        icon: < Icon />,
+        icon: < MapIcon />,
         link: "/Google Maps"
     },
     {
         title: "Pages",
-        icon: < Icon />,
+        icon: < StarBorderIcon />,
         link: "/Pages"
     },
     {
         title: "Apps",
-        icon: < Icon />,
+        icon: < FormatListBulletedIcon />,
         link: "/Apps"
     }
 ]
