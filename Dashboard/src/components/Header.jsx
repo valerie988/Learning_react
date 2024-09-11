@@ -10,15 +10,16 @@ const Header = () => {
   return (
     <div className="header">
       <div>
-        <img src={SearchIcon} alt="" />
+        <SearchIcon />
         <input type="text" placeholder="Search" />
       </div>
       <div>
-        <img src={NotificationsIcon} alt="" />
-        <img src={FormatListBulletedIcon} alt="" />
-        <img src={DraftsIcon} alt="" />
-        <img src={NightlightRoundIcon} alt="" />
-        <img src={DialpadIcon} alt="" />
+        <NotificationsIcon />
+        <FormatListBulletedIcon />
+        <DraftsIcon />
+        <NightlightRoundIcon />
+        <img src="" alt="pic" />
+        <DialpadIcon />
       </div>
     </div>
   );
