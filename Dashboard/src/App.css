@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 7px;
   border-bottom: 1px solid rgb(202, 198, 198);
   input{
     background-color: rgb(240, 240, 240);
@@ -24,23 +24,90 @@
 }
 .sidebar{
   background-color: rgb(5, 1, 30);
-    height: 100vh;
-    width: 15%;
-    color: rgba(232, 232, 232, 0.842);
-
+  font-size: small;
+  height: 100%;
+  width: 18%;
+  color: rgba(232, 232, 232, 0.842);
   li{
     display: flex;
+    padding: 10px;
+    gap: 20px;
+  }
+  h1{
+    padding: 12px;
+    border-bottom: 1px solid rgb(202, 198, 198);
   }
 }
 
 .body{
-  width: 90%;
+  width: 82%;
   
 }
+.dashboard{
+  padding: 10px;
+  background-color: rgb(240, 240, 240);
+  .part1{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  .sale{
+    width: 15rem;
+    height: 13rem;
+    border-radius: 5px;
+    background-color: white;
+  }
+  .cus-order{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    .customer, .order{
+      background-color: white;
+      width: 50%;
+      height: 6rem;
+      border-radius: 5px;
+    }
+  }
+  .traffic{
+    width: 70%;
+    background-color: white;
+    border-radius: 5px;
+  }
 
+  .part2{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    .users{
+      background-color: white;
+      width: 77%;
+      height: 25rem;
+      border-radius: 5px;
+    }
+    .rating{
+      .box{
+        width: 11rem;
+        border-radius: 5px;
+        height: 7.5rem;
+        margin-bottom: 20px;
+        background-color: white;
+      }
+    }
+
+  }
+  .part3{
+    .graphs{
+      background-color: white;
+      width: 98%;
+      height: 25rem;
+      border-radius: 5px;
+    }
+  }
+}
 .footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  border-top: 1px solid rgb(201, 200, 200);
 }

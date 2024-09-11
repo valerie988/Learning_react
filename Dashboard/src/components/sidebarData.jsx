@@ -1,6 +1,8 @@
 import React from "react";
 import EditIcon from '@mui/icons-material/Edit';
+import SpeedIcon from '@mui/icons-material/Speed';
 import ListAltIcon from '@mui/icons-material/ListAlt';
+import WaterDropIcon from '@mui/icons-material/WaterDrop';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import PieChartIcon from '@mui/icons-material/PieChart';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
@@ -15,6 +17,16 @@ import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import { TabScrollButton } from "@mui/material";
 
 export const sidebarData = [
+    {
+        title: "Dashbpoard",
+        icon: < SpeedIcon />,
+        link: "/Dashbpoard"
+    },
+    {
+        title: "color",
+        icon: < WaterDropIcon />,
+        link: "/color"
+    },
     {
         title: "Typography",
         icon: < EditIcon />,

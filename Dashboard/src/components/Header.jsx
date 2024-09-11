@@ -13,7 +13,7 @@ const Header = () => {
         <SearchIcon />
         <input type="text" placeholder="Search" />
       </div>
-      <div>
+      <div className="iconc">
         <NotificationsIcon />
         <FormatListBulletedIcon />
         <DraftsIcon />
