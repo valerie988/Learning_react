@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+}
+.App{
+  height: 100vh;
+  width: 100vw;
+}
+.header{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+
+  border-bottom: 1px solid rgb(202, 198, 198);
+  input{
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+
+.sidebar{
+  height: 100vh;
+  width: 15%;
+  background-color: rgb(3, 3, 39);
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}

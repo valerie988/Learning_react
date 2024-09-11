@@ -1,15 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import sideBar from "./components/sideBar"
-
-
+import Sidebar from "./components/sideBar"
+import "./App.css"
 const App = () => {
   return (
-    <div>
-        <Header />
-          <a path="/sideBar" element={<sideBar />} />
-        <Footer />
+    <div className="App">
+       
+        <Sidebar />
+       
     </div>
   );
 };

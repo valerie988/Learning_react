@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../App.css"
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <div>
         <input type="text" placeholder="Search" />
       </div>
