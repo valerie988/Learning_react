@@ -18,8 +18,8 @@ const Fullcalendar = () => {
         <Calendar className="date"
             localizer={localizer}
             selectable 
-            startAccessor={"<"}
-            endAccessor=">"
+            startAccessor={"start"}
+            endAccessor="end"
             style={{ height: 500}}
             defaultView="month"
             popup={true}

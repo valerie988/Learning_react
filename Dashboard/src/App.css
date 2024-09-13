@@ -63,13 +63,15 @@
 .sidebar{
   background-color: #131c24;
   font-size: small;
-  width: 18%;
+  width: 20%;
+  overflow: scroll;
   height: 100vh;
   color: rgba(232, 232, 232, 0.842);
   li{
     display: flex;
     height: 30px;
     padding: 5px;
+    
     justify-content: center;
     align-items: center;
   }
@@ -85,7 +87,7 @@
     border-bottom: 1px solid rgb(202, 198, 198);
   }
   #icon{
-    flex: 10%;
+    flex: 22%;
   }
   #title{
     flex: 40%;

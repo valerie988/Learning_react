@@ -16,9 +16,6 @@ const map = () => {
   return (
     <div className="Google Maps">
       <h1>Google Maps</h1>
-      <div className="link">
-        <a href="#">Home</a> <p>/</p> <a href="#">Plugins</a>
-      </div>
       <div className="map">
         <p>React Google Maps</p>
         <LoadScript googleMapsApiKey="">
