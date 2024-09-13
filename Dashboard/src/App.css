@@ -8,7 +8,14 @@
   height: 100vh;
   width: 100vw;
   display: flex;
+  background-color: var(--background);
 }
+:root{
+  --background: rgb(224, 220, 220);
+  --text: black;
+  --boxe: rgb(240, 240, 240);
+}
+
 .header{
   display: flex;
   justify-content: space-between;
@@ -48,11 +55,16 @@
     border-right: 1px solid rgb(186, 185, 185);
   }
 }
+.dark{
+  --background: black;
+  --text: white;
+  --boxe: black
+}
 .sidebar{
   background-color: #131c24;
   font-size: small;
   width: 18%;
-  height: 100%;
+
   overflow: scroll;
   color: rgba(232, 232, 232, 0.842);
   li{
@@ -93,8 +105,9 @@
   
 }
 .dashboard{
+  background-color: var(--background);
   padding: 10px;
-  background-color: rgb(240, 240, 240);
+  
   .part1{
     display: flex;
     gap: 20px;
@@ -186,4 +199,20 @@
   justify-content: space-between;
   padding: 10px;
   border-top: 1px solid rgb(201, 200, 200);
+}
+
+@media(max-width: 900px){
+  .App{
+    display: block;
+    grid-template-columns: none;
+  }
+  .header{
+    width: 90%;
+  }
+  .dashboard{
+    display: block;
+  }
+  .sidebar{
+    display: block;
+  }
 }

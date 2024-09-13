@@ -208,3 +208,14 @@ a{
     border-radius: 5px;
   }
 }
+@media(max-width: 900px){
+  .contact{
+    display: block;
+    gap: 20px;
+  }
+  .icons{
+    display: grid;
+    gap: 2rem;
+    display: block;
+  }
+}
