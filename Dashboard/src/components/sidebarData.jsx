@@ -20,7 +20,7 @@ export const sidebarData = [
     {
         title: "Dashboard",
         icon: < SpeedIcon />,
-        link: "/Dashboard",
+        
         button: "NEW"
     },
     {
