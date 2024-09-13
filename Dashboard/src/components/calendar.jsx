@@ -17,7 +17,6 @@ const Fullcalendar = () => {
         <p className="text">FullCalendar</p>
         <Calendar className="date"
             localizer={localizer}
-            events={event}
             selectable 
             startAccessor={"<"}
             endAccessor=">"
