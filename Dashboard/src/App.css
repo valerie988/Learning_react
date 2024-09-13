@@ -64,8 +64,7 @@
   background-color: #131c24;
   font-size: small;
   width: 18%;
-
-  overflow: scroll;
+  height: 100vh;
   color: rgba(232, 232, 232, 0.842);
   li{
     display: flex;
