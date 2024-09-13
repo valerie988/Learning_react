@@ -13,26 +13,52 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 7px;
-  border-bottom: 1px solid rgb(202, 198, 198);
+  text-align: center;
+  padding: 8px;
+  border-bottom: 1px solid rgb(222, 218, 218);
+
+  .leftIcon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(232, 232, 232, 0.842);
+
+  }
   input{
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(232, 232, 232, 0.842);
     border: none;
+    width: 100px;
     padding: 5px;
     border-radius: 5px;
+  }
+  .icons{
+    display: flex;
+    gap: 15px;
+    color: rgb(59, 59, 62);
+  }
+  .search{
+    width: 15px;
+  }
+  .light{
+    padding: 5px;
+    border-left: 1px solid rgb(191, 188, 188);
+    border-right: 1px solid rgb(186, 185, 185);
   }
 }
 .sidebar{
   background-color: #131c24;
   font-size: small;
   width: 18%;
- 
   height: 100%;
   overflow: scroll;
   color: rgba(232, 232, 232, 0.842);
   li{
     display: flex;
-    height: 40px;
+    height: 30px;
+    padding: 5px;
     justify-content: center;
     align-items: center;
   }
@@ -75,6 +101,7 @@
     margin-top: 10px;
   }
   .sale{
+    padding: 10px;
     width: 15rem;
     height: 13rem;
     border-radius: 5px;
@@ -125,6 +152,32 @@
       height: 25rem;
       border-radius: 5px;
     }
+  }
+}
+.Calendar{
+  background-color: rgb(240, 240, 240);
+  padding: 15px;
+  .link{
+    display: flex;
+    flex-direction: row;
+  }
+  .text{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding: 7px;
+    background-color: rgb(227, 225, 225);
+  }
+  .full{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+    height: fit-content;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+  }
+  .date{
+    padding: 10px;
+    background-color: white;
+    color: rgb(36, 114, 239);
   }
 }
 .footer{

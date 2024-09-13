@@ -9,15 +9,15 @@ import "../App.css"
 const Header = () => {
   return (
     <div className="header">
-      <div>
-        <SearchIcon />
+      <div className="leftIcon">
+        <SearchIcon className="search"/>
         <input type="text" placeholder="Search" />
       </div>
-      <div className="iconc">
+      <div className="icons">
         <NotificationsIcon />
         <FormatListBulletedIcon />
         <DraftsIcon />
-        <NightlightRoundIcon />
+        <NightlightRoundIcon className="light"/>
         <img src="" alt="pic" />
         <DialpadIcon />
       </div>

@@ -16,91 +16,104 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import "../App.css"
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
+
 export const sidebarData = [
     {
         title: "Dashboard",
         icon: < SpeedIcon />,
-        
-        button: "NEW"
+        button: "NEW",
+        to: "/Dashboard"
+    },
+    {
+        head: "THEME"
     },
     {
         title: "color",
         icon: < WaterDropIcon />,
-        link: "/color"
+        to: "/Color "
     },
     {
         title: "Typography",
         icon: < EditIcon />,
-        link: "/Typography"
+        to: "/Typography"
+    },
+    {
+        head: "COMPONENTS"
     },
     {
         title: "Base",
         icon: < ExtensionIcon />,
-        link: "/Base",
+        to: "/Base",
         arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Buttons",
         icon: < SendIcon />,
-        link: "/Buttons",
+        to: "/Buttons",
         arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Forms",
         icon: <  ListAltIcon/>,
-        link: "/Forms",
+        to: "/Forms",
         arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Icons",
         icon: < StarBorderIcon />,
-        link: "/Icons",
+        to: "/Icons",
         arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Notifications",
         icon: < NotificationsIcon />,
-        link: "/Notifications"
+        to: "/Notifications"
     },
     {
         title: "widgets",
         icon: < WidgetsIcon />,
-        link: "/widgets",
+        to: "/widgets",
         button: "NEW"
     },
     {
         title: "Smart Table",
         icon: < CalendarViewMonthIcon />,
-        link: "/Smart Table",
+        to: "/Smart Table",
         button: "PRO"
+    },
+    {
+        head: "PLUGINS"
     },
     {
         title: "Calendar",
         icon: < CalendarMonthIcon />,
-        link: "/Calendar",
+        to: "/Calendar",
         button: "PRO"
     },
     {
         title: "Charts",
         icon: < PieChartIcon />,
-        link: "/Charts"
+        to: "/Charts"
     },
     {
         title: "Google Maps",
         icon: < MapIcon />,
-        link: "/Google Maps",
+        to: "/Map",
         button: "PRO"
+    },
+    {
+        head: "EXTRAS"
     },
     {
         title: "Pages",
         icon: < StarBorderIcon />,
-        link: "/Pages",
+        to: "/Pages",
         arrow: <KeyboardArrowDownIcon />
     },
     {
         title: "Apps",
         icon: < FormatListBulletedIcon />,
-        link: "/Apps",
+        to: "/Apps",
         arrow: <KeyboardArrowDownIcon />
     }
 ]

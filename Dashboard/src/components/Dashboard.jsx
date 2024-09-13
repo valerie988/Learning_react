@@ -8,14 +8,23 @@ import React from "react";
             <a href="#">Home</a>
             <section className="part1">
                 <div>
-                    <div className="sale">sale</div>
+                    <div className="sale">
+                        <div>
+                            <h3>Sale</h3>
+                            <p>January - July 2023</p>
+                        </div>
+                        <h1>$613.200</h1>
+                    </div>
                     <div className="cus-order">
-                        <div className="customer">cus</div>
+                        <div className="customer">
+                            <p>Customer</p>
+                        </div>
                         <div className="order">order</div>
                     </div>
                 </div>
                 <div className="traffic">
-                    traffic
+                    <h3>Traffic</h3>
+                    <p>January 01, 2023 - December 31, 2023</p>
                 </div>
             </section>
 
