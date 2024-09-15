@@ -22,6 +22,7 @@ const Fullcalendar = () => {
             endAccessor="end"
             style={{ height: 500}}
             defaultView="month"
+            
             popup={true}
         />
       </div>

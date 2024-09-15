@@ -41,7 +41,8 @@ a{
 .Home{
   display: flex;
   padding:20px;
-  justify-content: space-between;
+  justify-content: space-around
+  ;
 
   h1{
     font-size: 69px;
@@ -161,7 +162,9 @@ a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 2.7rem;
+  width: 100%;
+  position: absolute;
+  position: fixed;
   font-size: x-small;
 }
 
