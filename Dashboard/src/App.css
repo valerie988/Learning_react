@@ -23,7 +23,7 @@
   text-align: center;
   padding: 8px;
   border-bottom: 1px solid rgb(222, 218, 218);
-  position: fixed;
+
 
   .leftIcon{
     display: flex;
@@ -65,8 +65,7 @@
   background-color: #131c24;
   font-size: small;
   width: 20%;
-  position: fixed;
-  overflow: scroll;
+  
   height: 100vh;
   color: rgba(232, 232, 232, 0.842);
   li{
@@ -111,7 +110,6 @@
   margin-left: 0;
   background-color: var(--background);
   padding: 10px;
-  overflow: scroll;
   
   .part1{
     display: flex;
