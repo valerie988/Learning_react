@@ -1,5 +1,24 @@
-import React from "react";
+
+import Chart from "react-apexcharts"
  const Dashboard = () => {
+
+        this.state={
+            options: {
+                chart: {
+                    id: "basic bar"
+                },
+                xaxis:{
+                    categories: ["Jan", "Fre", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+                }
+            },
+            series: [
+                {
+                name: "series-1",
+                data: [0, 25, 50, 75, 100]
+                }
+            ]
+        }
+    
     return (
         <div className="dashboard">
             <h1>
@@ -25,6 +44,12 @@ import React from "react";
                 <div className="traffic">
                     <h3>Traffic</h3>
                     <p>January 01, 2023 - December 31, 2023</p>
+                    <Chart 
+                    options= {this.state.options}
+                    series={this.state.series}
+                    type="bar"
+                    width="500"
+                    />
                 </div>
             </section>
 
